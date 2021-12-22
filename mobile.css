@@ -8,15 +8,20 @@
        url('SourceSansPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 body {
+  padding-top: 400px;
   font-family: 'SourceSansPro', Fallback, sans-serif;
   font-size: 55px;
   line-height: 120px;
      }
 #box {
-  padding-top: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+  background-color: #0000AA;
+    }
+p {
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 200px;
   background-color: #0000AA;
     }
 }
