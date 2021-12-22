@@ -1,1 +1,12 @@
-
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('SourceSansPro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SourceSansPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('SourceSansPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('SourceSansPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SourceSansPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+body {
+  font-family: 'SourceSansPro', Fallback, sans-serif;
+}
