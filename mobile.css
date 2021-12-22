@@ -22,7 +22,7 @@ body {
      }
 #box {
   font-family: 'SourceSansPro-Bold', Fallback, sans-serif;
-  font-size: 55px;
+  font-size: 53px;
   border-radius: 75px 75px 0px 0px;
   padding-left: 20px;
   padding-right: 20px;
@@ -33,7 +33,7 @@ body {
     }
 #box2 {
   font-family: 'SourceSansPro-Light', Fallback, sans-serif;
-  font-size: 45px;
+  font-size: 42px;
   border-radius: 0px 0px 75px 75px;
   padding-left: 20px;
   padding-right: 20px;
