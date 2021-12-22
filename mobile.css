@@ -12,5 +12,6 @@ body {
   font-size: 55px;
   line-height: 120px;
   padding-top: 1000px;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
