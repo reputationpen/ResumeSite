@@ -12,8 +12,10 @@ body {
   font-family: 'SourceSansPro', Fallback, sans-serif;
   font-size: 55px;
   line-height: 120px;
+  color: white;
      }
 #box {
+  border-radius: 25px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
