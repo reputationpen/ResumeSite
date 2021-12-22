@@ -1,19 +1,28 @@
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url('SourceSansPro-Regular.eot'); /* IE9 Compat Modes */
-  src: url('SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('SourceSansPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('SourceSansPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('SourceSansPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('SourceSansPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'SourceSansPro-Light';
+  src: url('SourceSansPro-Light.eot'); /* IE9 Compat Modes */
+  src: url('SourceSansPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SourceSansPro-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('SourceSansPro-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('SourceSansPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SourceSansPro-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: url('SourceSansPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SourceSansPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('SourceSansPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('SourceSansPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SourceSansPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 body {
-  padding-top: 400px;
-  font-family: 'SourceSansPro', Fallback, sans-serif;
-  font-size: 55px;
+  padding-top: 250px;
   line-height: 120px;
      }
 #box {
+  font-family: 'SourceSansPro-Bold', Fallback, sans-serif;
+  font-size: 60px;
   border-radius: 75px 75px 0px 0px;
   padding-left: 20px;
   padding-right: 20px;
@@ -23,6 +32,8 @@ body {
   color: white;
     }
 #box2 {
+  font-family: 'SourceSansPro-Light', Fallback, sans-serif;
+  font-size: 45px;
   border-radius: 0px 0px 75px 75px;
   padding-left: 20px;
   padding-right: 20px;
